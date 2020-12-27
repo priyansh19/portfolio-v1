@@ -1,15 +1,15 @@
-title: Neumorphism
-description: Personal website powered by Jekyll
+title: Priyansh Gupta
+description: Software Developer
 baseurl: ''
-username: Neumorphism
-typing_text: Jekyll Theme
-email: email@example.com
-github_username: longpdo
-codepen_username: exampleUser
-dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
-show_aboutme_card: true
+username: Priyansh Gupta
+typing_text: Software Devloper
+email: guptapriyansh1907@gmail.com
+github_username: priyansh19
+codepen_username: priyansh19
+dev_username: priyansh19
+linkedin_username: priyansh-gupta-649048159
+twitter_username: priyans78593745
+show_aboutme_card: false
 about_me_title: About Me
 about_me_description: >-
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -29,17 +29,17 @@ about_me_description: >-
   rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link"
   href="https://jekyll-themes.com/neumorphism/" target="_blank"
   rel="noreferrer">Jekyll Themes</a>.
-show_skills_card: true
+show_skills_card: false
 skills_title: Skills
-show_timeline_card: true
+show_timeline_card: false
 timeline_title: Education & Experience
 cv_download_link: 'https://example.com/'
-show_projects_card: true
-show_projects: true
+show_projects_card: false
+show_projects: false
 projects_title: Projects
-show_os_projects: true
+show_os_projects: false
 os_projects_title: Open Source Projects
-show_contact_card: true
+show_contact_card: false
 contact_title: Contact
 contact_description: >-
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
