@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 html {
-  background: #2b2d2f;
+  background: #121414;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-size: 1rem;
@@ -21,26 +21,26 @@ p {
   word-spacing: 0.1rem;
 }
 a {
-  color: #ea00ff;
+  color: #af02be;
   text-decoration: none;
 }
 a:hover {
   color: #fff;
 }
 .highlight-title {
-  color: #ea00ff;
-  text-shadow: 0.25rem 0.25rem 0.25rem #ea00ff;
+  color: #af02be;
+  text-shadow: 0.20rem 0.20rem 0.20rem #af02be;
 }
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 #ea00ff;
+  box-shadow: inset 0 -0.125rem 0 #af02be;
   box-sizing: border-box;
-  color: #ea00ff;
+  color: #af02be;
   display: inline-block;
   padding: 0.125rem;
   transition: all 0.2s ease-in-out;
 }
 .highlight-link:hover {
-  box-shadow: inset 0 -2rem 0 0 #ea00ff;
+  box-shadow: inset 0 -2rem 0 0 #af02be;
   color: #fff;
 }
 .layout {
@@ -49,7 +49,7 @@ a:hover {
   padding: 0.5rem;
 }
 .layout .card {
-  background: linear-gradient(145deg, hsla(0, 0%, 45%, 0.15) 15%, #2b2d2f 80%);
+  background: linear-gradient(145deg, hsla(0, 0%, 45%, 0.15) 15%, #121414 80%);
   border-radius: 2rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
@@ -82,7 +82,7 @@ a:hover {
 #preloader {
   -ms-flex-align: center;
   align-items: center;
-  background: #2b2d2f;
+  background: #121414;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
@@ -117,14 +117,14 @@ a:hover {
 }
 #preloader .load :nth-child(2) {
   animation-delay: -1s;
-  background: #ea00ff;
+  background: #af02be;
 }
 #preloader .load :nth-child(3) {
   animation-delay: -0.5s;
   background: #fff;
 }
 #preloader .load :last-child {
-  background: #ea00ff;
+  background: #af02be;
 }
 @keyframes a {
   0%,
@@ -142,19 +142,19 @@ a:hover {
   }
 }
 .footer {
-  background: #2b2d2f;
+  background: #121414;
   color: #fff;
   margin: 0.5rem;
   padding: 1rem;
   text-align: center;
 }
 .footer a {
-  color: #ea00ff;
+  color: #af02be;
 }
 #landing,
 .footer a:focus,
 .footer a:hover {
-  background: #2b2d2f;
+  background: #121414;
   color: #fff;
 }
 #landing {
@@ -351,7 +351,7 @@ a:hover {
   padding: 1rem 0;
 }
 .timeline-wrapper .hexagon {
-  background: #ea00ff;
+  background: #af02be;
   height: 0.5rem;
   left: 0;
   margin-left: auto;
@@ -372,11 +372,11 @@ a:hover {
   position: absolute;
 }
 .timeline-wrapper .hexagon:before {
-  border-bottom: 0.25rem solid #ea00ff;
+  border-bottom: 0.25rem solid #af02be;
   top: -0.25rem;
 }
 .timeline-wrapper .hexagon:after {
-  border-top: 0.25rem solid #ea00ff;
+  border-top: 0.25rem solid #af02be;
   bottom: -0.25rem;
 }
 .timeline-wrapper .flag-wrapper {
@@ -384,7 +384,7 @@ a:hover {
   text-align: center;
 }
 .timeline-wrapper .flag {
-  background: #2b2d2f;
+  background: #121414;
   border-radius: 0.5rem;
   font-weight: 600;
   padding: 0.25rem 0.5rem;
@@ -395,7 +395,7 @@ a:hover {
 }
 .timeline-wrapper .flag span:after {
   content: "\226B";
-  color: #ea00ff;
+  color: #af02be;
   position: absolute;
   opacity: 0;
   right: -1rem;
@@ -416,13 +416,13 @@ a:hover {
   margin-top: 0.3rem;
 }
 .timeline-wrapper .time {
-  background: #2b2d2f;
+  background: #121414;
   border-radius: 0.5rem;
   display: inline-block;
   padding: 0.6rem;
 }
 .timeline-wrapper .desc {
-  background: #2b2d2f;
+  background: #121414;
   border-radius: 1rem;
   margin: 1em 0 0;
   padding: 0.75em;
@@ -477,7 +477,7 @@ a:hover {
   font-size: 1.5rem;
 }
 .contact-icons .social-link .social-svg {
-  fill: #ea00ff;
+  fill: #af02be;
 }
 .contact-icons .social-link:hover {
   cursor: pointer;
@@ -548,7 +548,7 @@ a:hover {
     letter-spacing: 0.25rem;
   }
   #skills input[type="radio"]:checked + .filter-button {
-    color: #ea00ff;
+    color: #af02be;
     font-weight: 600;
     background: linear-gradient(
       150deg,

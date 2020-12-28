@@ -4,7 +4,7 @@
       "value": 10,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 300
       }
     },
     "color": {
@@ -17,11 +17,11 @@
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 4
+        "nb_sides": 6
       }
     },
     "opacity": {
-      "value": 0.7,
+      "value": 0.5,
       "random": true,
       "anim": {
         "enable": false,
@@ -35,8 +35,8 @@
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 4,
-        "size_min": 1,
+        "speed": 8,
+        "size_min": 4,
         "sync": false
       }
     },
@@ -62,7 +62,8 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false
+        "enable": true,
+        "mode" : "repulse"
       },
       "onclick": {
         "enable": true,
