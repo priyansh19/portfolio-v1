@@ -49,17 +49,17 @@ a:hover {
   padding: 0.5rem;
 }
 .layout .card {
-  background: linear-gradient(145deg, hsla(0, 0%, 45%, 0.15) 15%, #121414 80%);
+  background: linear-gradient(145deg, #121414 15%, #121414 80%);
   border-radius: 2rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
 }
 .layout .card .title {
-  text-align: center;
+  text-align: left;
   position: relative;
 }
 .layout .card .subtitle {
-  text-align: center;
+  text-align: left;
 }
 .layout .card .description {
   text-align: justify;
@@ -74,10 +74,10 @@ a:hover {
     4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px #636363;
+  box-shadow: inset 1px 1px 2px #000, inset -1px -1px 2px #0080ff;
 }
 .neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  box-shadow: 2.5px 2.5px 2px #161718, -2.5px -2.5px 2px #0080ff;
 }
 #preloader {
   -ms-flex-align: center;
@@ -96,12 +96,12 @@ a:hover {
   z-index: 999;
 }
 #preloader .load {
-  height: 6rem;
+  height: 7rem;
   left: 50%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 6rem;
+  width: 7rem;
 }
 #preloader .load hr {
   animation: a 2s ease infinite;
@@ -113,18 +113,18 @@ a:hover {
 }
 #preloader .load :first-child {
   animation-delay: -1.5s;
-  background: #fff;
+  background: rgb(207, 15, 15);
 }
 #preloader .load :nth-child(2) {
   animation-delay: -1s;
-  background: #af02be;
+  background: #ffee06;
 }
 #preloader .load :nth-child(3) {
   animation-delay: -0.5s;
-  background: #fff;
+  background: rgb(0, 119, 255);
 }
 #preloader .load :last-child {
-  background: #af02be;
+  background: #73ff00;
 }
 @keyframes a {
   0%,
