@@ -62,7 +62,7 @@ a:hover {
   text-align: left;
 }
 .layout .card .description {
-  text-align: justify;
+  text-align: left;
 }
 .neumorphism-button {
   background: linear-gradient(
