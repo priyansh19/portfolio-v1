@@ -15,11 +15,7 @@ about_me_title: Who Am I ?
 show_skills_card: false
 skills_title: Skills
 show_timeline_card: true
-<<<<<<< HEAD
 timeline_title: Education & Experience 
-=======
-timeline_title: Education & Experience
->>>>>>> local-server
 cv_download_link: 'https://example.com/'
 show_projects_card: false
 show_projects: false
