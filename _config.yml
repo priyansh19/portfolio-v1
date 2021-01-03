@@ -14,9 +14,9 @@ about_me_title: Who Am I ?
 
 show_skills_card: false
 skills_title: Skills
-show_timeline_card: false
+show_timeline_card: true
 timeline_title: Education & Experience 
-cv_download_link: 'https://example.com/'
+cv_download_link: 'https://bit.ly/3b4sbdq'
 show_projects_card: false
 show_projects: false
 projects_title: Projects

@@ -16,46 +16,53 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
-
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: StatusNeo
+  title-url: https://statusneo.com/
+  date: May 2020 - July 2020
+  subtitle: Software Development Engineering Intern
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: "- Java SpringBoot Application, MVC architecture"
+    - tag: "- CI/CD and Containerization"
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: University of Petroleum and Energy Studies
+  title-url: https://www.upes.ac.in/
+  date: August 2017 - May 2021
+  subtitle: Under Graduate 
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: "CGPA : 8.2 (Out of 10)"
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+- title: Vivekanand International School Delhi 
+  title-url: http://vivekanandschool.in/website/index.html
+  date: April 2015 - March 2017
+  subtitle: Higher Secondry School 
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Ch. Chhabil Dass Public School Ghaziabad  
+  title-url: http://www.ccdps.in/
+  date: April 2007 - March 2017
+  subtitle: Senior Secondry School 
   timeline-side: left
+
+# - title: Super University
+#   title-url: https://example.com/
+#   date: 2017 - 2019
+#   subtitle: M.Sc. Computer Science
+#   timeline-side: left
+
+# - title: Facebook
+#   title-url: https://example.com/
+#   date: Sep 2017 - Mar 2019
+#   subtitle: Front-End Developer as Intern
+#   tags:
+#     - tag: React
+#     - tag: Node
+#     - tag: Javascript
+#   timeline-side: right
+
+# - title: Super University
+#   title-url: https://example.com/
+#   date: 2014 - 2017
+#   subtitle: B.A. Computer Science
+#   timeline-side: left

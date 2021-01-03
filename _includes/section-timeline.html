@@ -2,8 +2,8 @@
 <p class="subtitle">
   For more information, have a look at my
   <a class="highlight-link" href="{{site.cv_download_link}}" target="_blank" rel="noreferrer">
-    curriculum vitae
-  </a>.
+    Resume
+  </a>
 </p>
 
 <div class="timeline-wrapper">
@@ -19,11 +19,12 @@
                   <span>{{event.title}}</span>
                 </a>
               </span>
+            </div>
+
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
               <span class="time-wrapper" data-aos="zoom-in-right">
                 <span class="time neumorphism-card">{{event.date}}</span>
               </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-right">
               {{event.subtitle}}
               {% if event.tags %}
                 <div class="tag-wrapper">
@@ -47,11 +48,11 @@
                   <span>{{event.title}}</span>
                 </a>
               </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
               <span class="time-wrapper" data-aos="zoom-in-left">
                 <span class="time neumorphism-card">{{event.date}}</span>
               </span>
-            </div>
-            <div class="desc neumorphism-card" data-aos="zoom-in-left">
               {{event.subtitle}}
               {% if event.tags %}
                 <div class="tag-wrapper">
