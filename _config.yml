@@ -16,7 +16,7 @@ show_skills_card: false
 skills_title: Skills
 show_timeline_card: true
 <<<<<<< HEAD
-timeline_title: Education & Experience ..
+timeline_title: Education & Experience 
 =======
 timeline_title: Education & Experience
 >>>>>>> local-server
