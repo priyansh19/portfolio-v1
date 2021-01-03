@@ -21,41 +21,22 @@ p {
   word-spacing: 0.1rem;
 }
 a {
-  color: #ff073a;
+  color: #ff4800;
   text-decoration: none;
 }
 a:hover {
   color: #2e2e2e;
 }
 .highlight-title {
-<<<<<<< HEAD
-  color: #000000;
-  /* text-shadow: 0.25rem 0.25rem 0.25rem #ffeedb; */
+
+  color: #2e2e2e;
 }
 .highlight-link {
-  box-shadow: inset 0 -0.125rem 0 #ff073a;
-  /* box-sizing: border-box; */
-  box-sizing: content-box;
-=======
-  color: #ff073a;
-  text-shadow: 0.20rem 0.20rem 0.20rem #ff073a;
-}
-.highlight-link {
-  box-shadow: inset 0 -0.125rem 0 #ff073a;
-  box-sizing: border-box;
->>>>>>> local-server
-  color: #ff073a;
-  display: inline-block;
-  padding: 0.125rem;
+  color: #ff4800;
   transition: all 0.2s ease-in-out;
 }
 .highlight-link:hover {
-  box-shadow: inset 0 -2rem 0 0 #ff073a;
-<<<<<<< HEAD
-  color: #2e2e2e;
-=======
-  color: #fff;
->>>>>>> local-server
+  color: #000;
 }
 .layout {
   margin: 0.5rem;
@@ -175,7 +156,7 @@ a:hover {
   text-align: center;
 }
 .footer a {
-  color: #ff073a;
+  color: #ff4800;
 }
 #landing,
 .footer a:focus,
@@ -377,7 +358,7 @@ a:hover {
   padding: 1rem 0;
 }
 .timeline-wrapper .hexagon {
-  background: #ff073a;
+  background: #2e2e2e;
   height: 0.5rem;
   left: 0;
   margin-left: auto;
@@ -398,11 +379,11 @@ a:hover {
   position: absolute;
 }
 .timeline-wrapper .hexagon:before {
-  border-bottom: 0.25rem solid #ff073a;
+  border-bottom: 0.25rem solid #2e2e2e;
   top: -0.25rem;
 }
 .timeline-wrapper .hexagon:after {
-  border-top: 0.25rem solid #ff073a;
+  border-top: 0.25rem solid #2e2e2e;
   bottom: -0.25rem;
 }
 .timeline-wrapper .flag-wrapper {
@@ -410,11 +391,7 @@ a:hover {
   text-align: center;
 }
 .timeline-wrapper .flag {
-<<<<<<< HEAD
-  background: rgb(33, 135, 236);
-=======
-  background: #121412;
->>>>>>> local-server
+  background: ##ff4800;
   border-radius: 0.5rem;
   font-weight: 600;
   padding: 0.25rem 0.5rem;
@@ -425,7 +402,7 @@ a:hover {
 }
 .timeline-wrapper .flag span:after {
   content: "\226B";
-  color: #ff073a;
+  color: #2e2e2e;
   position: absolute;
   opacity: 0;
   right: -1rem;
@@ -509,7 +486,7 @@ a:hover {
   font-size: 1.5rem;
 }
 .contact-icons .social-link .social-svg {
-  fill: #ff073a;
+  fill: #ff4800;
 }
 .contact-icons .social-link:hover {
   cursor: pointer;
@@ -580,7 +557,7 @@ a:hover {
     letter-spacing: 0.25rem;
   }
   #skills input[type="radio"]:checked + .filter-button {
-    color: #ff073a;
+    color: #ff4800;
     font-weight: 600;
     background: linear-gradient(
       150deg,
