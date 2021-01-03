@@ -4,7 +4,7 @@ html {
   background: #f0f0f0;
   color: #2e2e2e;
   font-family: Raleway, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   overflow: hidden;
 }
@@ -28,7 +28,6 @@ a:hover {
   color: #2e2e2e;
 }
 .highlight-title {
-
   color: #2e2e2e;
 }
 .highlight-link {
@@ -219,7 +218,7 @@ a:hover {
 }
 .landing-icons .social-link:hover .circle {
   animation: b 1s ease-in-out forwards, d 1s linear forwards;
-  fill: #2e2e2e;2e2e2e
+  fill: #2e2e2e;
   fill-opacity: 1;
 }
 .landing-icons .social-link:hover .social-svg {
@@ -391,7 +390,7 @@ a:hover {
   text-align: center;
 }
 .timeline-wrapper .flag {
-  background: ##ff4800;
+  background: #ff4800;
   border-radius: 0.5rem;
   font-weight: 600;
   padding: 0.25rem 0.5rem;
