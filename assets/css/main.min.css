@@ -61,11 +61,11 @@ a:hover {
 .neumorphism-button {
   background: linear-gradient(
     145deg,
-    hsla(240, 2%, 40%, 0.15) 15%,
-    rgba(33, 33, 33, 0.4) 80%
+    #ff4800 15%,
+    #ff4800 80%
   );
-  box-shadow: -4px -3px 2px 0 hsla(0, 0%, 98%, 0.13),
-    4px 4px 2px 0 rgba(0, 0, 0, 0.4);
+  /* box-shadow: -4px -3px 2px 0 hsla(0, 0%, 98%, 0.13),
+    4px 4px 2px 0 rgba(0, 0, 0, 0.4); */
 }
 /* .neumorphism-card {
   box-shadow: inset 2px 2px 4px #000, inset -2px -2px 4px #000000;
@@ -357,7 +357,7 @@ a:hover {
   padding: 1rem 0;
 }
 .timeline-wrapper .hexagon {
-  background: #2e2e2e;
+  background: #ff4800;
   height: 0.5rem;
   left: 0;
   margin-left: auto;
@@ -378,11 +378,11 @@ a:hover {
   position: absolute;
 }
 .timeline-wrapper .hexagon:before {
-  border-bottom: 0.25rem solid #2e2e2e;
+  border-bottom: 0.25rem solid #ff4800;
   top: -0.25rem;
 }
 .timeline-wrapper .hexagon:after {
-  border-top: 0.25rem solid #2e2e2e;
+  border-top: 0.25rem solid #ff4800;
   bottom: -0.25rem;
 }
 .timeline-wrapper .flag-wrapper {
@@ -390,7 +390,7 @@ a:hover {
   text-align: center;
 }
 .timeline-wrapper .flag {
-  background: #ff4800;
+  background: #2e2e2e;
   border-radius: 0.5rem;
   font-weight: 600;
   padding: 0.25rem 0.5rem;
@@ -401,13 +401,14 @@ a:hover {
 }
 .timeline-wrapper .flag span:after {
   content: "\226B";
-  color: #2e2e2e;
+  color: #ff4800;
   position: absolute;
   opacity: 0;
   right: -1rem;
   transition: 0.4s;
 }
 .timeline-wrapper .flag:hover span {
+  color: #ff4800;
   letter-spacing: 0.05rem;
   padding-right: 1.25rem;
 }
@@ -416,13 +417,13 @@ a:hover {
   right: 0;
 }
 .timeline-wrapper .time-wrapper {
-  color: #fff;
+  color: #000000;
   display: block;
   line-height: 0.5rem;
   margin-top: 0.3rem;
 }
 .timeline-wrapper .time {
-  background: #f0f0f0;
+  background: #696969;
   border-radius: 0.5rem;
   display: inline-block;
   margin-right: 1rem;
@@ -462,10 +463,7 @@ a:hover {
   margin: 1rem 0 0;
 }
 .tag {
-  border-radius: 0.5rem;
-  display: inline-block;
-  margin-bottom: 0.25rem;
-  padding: 0.5rem;
+  display: inline-table;
 }
 .contact-icons {
   display: -ms-flexbox;
