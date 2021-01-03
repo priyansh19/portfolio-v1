@@ -4,20 +4,20 @@
       "value": 10,
       "density": {
         "enable": true,
-        "value_area": 300
+        "value_area": 100
       }
     },
     "color": {
-      "value": ["#4afc00"]
+      "value": ["#ff4800", "#909090"]
     },
     "shape": {
       "type": "polygon",
       "stroke": {
-        "width": 0,
+        "width": 0.7  ,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 6
+        "nb_sides": 4
       }
     },
     "opacity": {
