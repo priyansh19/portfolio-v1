@@ -5,10 +5,10 @@
 # - name: Framework
 #   weight: 5
 
-- name: Angular
+- name: AWS
   weight: 5
 
-- name: AngularJS
+- name: Google Cloud
   weight: 3
 
 - name: React
@@ -17,17 +17,17 @@
 - name: Node
   weight: 1
 
-- name: Flutter
+- name: SpringBoot
   weight: 2
 
-- name: Express
+- name: Linux / Unix
   weight: 3
 
-- name: Django
+- name: Spring
   weight: 1
 
-- name: Spring
-  weight: 2
+- name: Data Engineering
+  weight: 3
 
-- name: Rails
-  weight: 4
+- name: ETL
+  weight: 5

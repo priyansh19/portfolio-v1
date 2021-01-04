@@ -12,7 +12,7 @@ twitter_username: priyansh1907
 show_aboutme_card: true
 about_me_title: Who Am I ?
 
-show_skills_card: false
+show_skills_card: true
 skills_title: Skills
 show_timeline_card: true
 timeline_title: Education & Experience 

@@ -5,7 +5,7 @@ html {
   color: #2e2e2e;
   font-family: Raleway, sans-serif;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
   overflow: hidden;
 }
 body,
@@ -61,8 +61,8 @@ a:hover {
 .neumorphism-button {
   background: linear-gradient(
     145deg,
-    #ff4800 15%,
-    #ff4800 80%
+    #2e2e2ed7 10%,
+    #696969a8 80%
   );
   /* box-shadow: -4px -3px 2px 0 hsla(0, 0%, 98%, 0.13),
     4px 4px 2px 0 rgba(0, 0, 0, 0.4); */
@@ -300,32 +300,32 @@ a:hover {
   transition: opacity 0.5s;
 }
 #skills div[skill-type="language"] {
-  color: #e84a5f;
+  color: #ff6a2e;
 }
 #skills div[skill-type="framework"] {
-  color: #ff847c;
+  color: #2e2e2e;
 }
 #skills div[skill-type="tool"] {
-  color: #fecea8;
+  color: #7e3d24;
 }
 #skills div[skill-weight="1"] {
   font-size: 0.75rem;
   line-height: 0.25rem;
 }
 #skills div[skill-weight="2"] {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 0.75rem;
 }
 #skills div[skill-weight="3"] {
-  font-size: 1.75rem;
+  font-size: 1.55rem;
   line-height: 1.25rem;
 }
 #skills div[skill-weight="4"] {
-  font-size: 2.25rem;
+  font-size: 1.95rem;
   line-height: 1.75rem;
 }
 #skills div[skill-weight="5"] {
-  font-size: 2.75rem;
+  font-size: 2.35rem;
   line-height: 2.25rem;
 }
 #skills .filter-button,
@@ -542,7 +542,10 @@ a:hover {
     line-height: 4rem;
   }
   #skills .filter-button {
-    border-radius: 0.5rem;
+    color: #000000;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 0.3rem;
     cursor: pointer;
     display: unset;
     margin: 0 0.5rem 1rem;
@@ -551,19 +554,23 @@ a:hover {
     width: 21%;
   }
   #skills .filter-button:hover {
-    letter-spacing: 0.25rem;
+    color: #000000;
+    font-size: large;
+    font-weight: 800;
+    letter-spacing: 0.10rem;
   }
   #skills input[type="radio"]:checked + .filter-button {
     color: #ff4800;
-    font-weight: 600;
+    font-weight: 1000;
+    font-size: x-large;
     background: linear-gradient(
       150deg,
-      hsla(0, 0%, 8%, 0.4) 10%,
+      hsla(0, 0%, 8%, 0.4) 40%,
       hsla(0, 0%, 45%, 0.15) 80%
     );
-    box-shadow: 1px 1px 2px 0 hsla(0, 0%, 82%, 0.4),
-      -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
-      inset -1px -2px 2px hsla(0, 0%, 82%, 0.4);
+    box-shadow: 1px 1px 1px 0 #ff480073,
+      -1px -1px 1px #ff4800c5, inset 1px 1px 1px 0 #ff48004d,
+      inset -1px -1px 1px #ff480065;
   }
   #skills input[id="framework"]:checked ~ div[skill-type="language"],
   #skills input[id="framework"]:checked ~ div[skill-type="tool"],

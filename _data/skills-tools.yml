@@ -2,35 +2,44 @@
 # > weight: Describes how good you know the tool - values from 1 up to 5
 #
 # Example of a Dev Tool
-# - name: Git
-#   weight: 5
+- name: GitHub
+  weight: 3
 
 - name: Git
   weight: 5
 
-- name: Bash
+- name: Bash & ZSH
   weight: 3
 
 - name: Scrum
-  weight: 3
+  weight: 4
 
-- name: Travis CI
-  weight: 1
+- name: VScode
+  weight: 2
 
 - name: Jenkins
   weight: 1
 
-- name: Chrome DevTools
+- name: Docker
   weight: 2
 
-- name: npm
-  weight: 2
+- name: Kubernetes
+  weight: 5
 
-- name: gulp
-  weight: 4
-
-- name: VS Code
+- name: Hadoop HDFS
   weight: 3
 
-- name: Postman
+- name: Hive
+  weight: 2
+
+- name: Kafka
+  weight: 3
+
+- name: MapReduce
+  weight: 1
+
+- name: Spark Streaming
+  weight: 3
+
+- name: Spark SQL
   weight: 4
