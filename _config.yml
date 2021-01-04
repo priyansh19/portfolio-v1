@@ -5,8 +5,8 @@ username: Priyansh Gupta
 typing_text: Software Engineer
 email: guptapriyansh1907@gmail.com
 github_username: priyansh19
-codepen_username: priyansh19
-dev_username: priyansh19
+codepen_username: null
+dev_username: null
 linkedin_username: priyansh-gupta-649048159
 twitter_username: priyansh1907
 show_aboutme_card: true
@@ -22,16 +22,10 @@ show_projects: false
 projects_title: Projects
 show_os_projects: false
 os_projects_title: Open Source Projects
-show_contact_card: false
-contact_title: Contact
+show_contact_card: true
+contact_title: Get in touch ..
 contact_description: >-
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-  voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like
-  this theme and want to use it for yourself, checkout the source code and the
-  documentation at <a class="highlight-link"
-  href="https://github.com/longpdo/neumorphism" target="_blank"
-  rel="noreferrer"> Github </a>.
+  Feel free to contact or follow me. If you have any Project or some Idea related to it, Then let's discuss ..
 repository: longpdo/neumorphism
 projects:
   sort_by: pushed

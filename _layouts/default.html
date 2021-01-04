@@ -9,16 +9,19 @@
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
-  <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ " /assets/favicon/apple-touch-icon.png" | prepend: site.baseurl
+    }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ " /assets/favicon/favicon-32x32.png" | prepend: site.baseurl
+    }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ " /assets/favicon/favicon-16x16.png" | prepend: site.baseurl
+    }}">
+  <link rel="manifest" href="{{ " /assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /assets/css/main.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ " /assets/css/vendors.min.css" | prepend: site.baseurl }}">
 
-  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ " /assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ " /assets/js/app.min.js" | prepend: site.baseurl }}"></script>
 </head>
 
 <body>
@@ -33,24 +36,24 @@
   {% include landing-page.html %}
   <div class="layout">
     {%if site.show_aboutme_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-aboutme.html %}
-      </section>
+    <section class="card neumorphism-card-big">
+      {% include section-aboutme.html %}
+    </section>
     {% endif %}
     {%if site.show_timeline_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-timeline.html %}
-      </section>
+    <section class="card neumorphism-card-big">
+      {% include section-timeline.html %}
+    </section>
     {% endif %}
     {%if site.show_skills_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-skills.html %}
-      </section>
+    <section class="card neumorphism-card-big">
+      {% include section-skills.html %}
+    </section>
     {% endif %}
     {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-projects.html %}
-      </section>
+    <section class="card neumorphism-card-big">
+      {% include section-projects.html %}
+    </section>
     {% endif %}
     {%if site.show_contact_card %}
     <section class="card neumorphism-card-big">
@@ -58,6 +61,6 @@
     </section>
     {% endif %}
   </div>
-  {% include footer.html %}
 </body>
+{% include footer.html %}
 </html>

@@ -10,7 +10,7 @@ html {
 }
 body,
 html {
-  height: 100%;
+  height: 105%;
 }
 h1 {
   font-size: 2rem;
@@ -483,7 +483,7 @@ a:hover {
   font-size: 1.5rem;
 }
 .contact-icons .social-link .social-svg {
-  fill: #ff4800;
+  fill: #2e2e2e;
 }
 .contact-icons .social-link:hover {
   cursor: pointer;
