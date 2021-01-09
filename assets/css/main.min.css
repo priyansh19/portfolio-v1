@@ -490,7 +490,7 @@ a:hover {
   animation: h 1s infinite alternate;
 }
 .contact-icons .social-link:hover .social-svg {
-  fill: #fff;
+  fill: #000;
 }
 .contact-icons .black:hover .social-svg {
   fill: #000;

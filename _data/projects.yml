@@ -12,22 +12,37 @@
 #     - tag: Express
 #     - tag: AngularJS
 #     - tag: Node
+- name: Algorithm Visualizer 
+  descr: "This tool is built to visualize the working of certain algorithms which could be understood by the students easily. It includes visualization done on certain Searching, Sorting and Graph Algorithms"
+  demo: https://prajjawalbanati.github.io/Algorithm-Visualizer/
+  tags: 
+    - tag: JavaScript
+    - tag: React
+    - tag: Searching, Sorting, Path Finding Visualizations
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Key_Value DataStore
+  descr: "This is a simple key_value datastore to implement few of the basic functionalities. It includes all the CRUD (create,read,update,delete) functionalities along with TTL (time to live for each key)."
+  demo: https://github.com/priyansh19/Key_Value_DataStore_Java
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Java
+    - tag: Multi Threading
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Classification of Personality based on Users Twitter Data
+  descr: "It is a NLP based project, This application helps to identify the users personality using their Twitter Data."
+  demo: https://github.com/priyansh19/Classification-of-Personality-based-on-Users-Twitter-Data
   tags:
     - tag: Python
-    - tag: Django
+    - tag: Twitter Dev API's
+    - tag: NLP
 
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+- name: Byte Language
+  descr: "[ In progress ] It is a small programming language. Built using Python from scratch."
+  tags:
+    - tag: Python
+
+- name: Whatsapp-play (OpenSource)
+  descr: "It is command line software through which you can play with your WhatsApp. It is having different options to play with your WhatsApp like message blast, online tracking, whatsapp chat.. This software aims to provide all facilities which we can do with WhatsApp. This CLI software does not require any API key for the execution."
+  demo: https://github.com/rpotter12/whatsapp-play
+  tags: 
+    - tag: Python
+    - tag: CLI Based Application

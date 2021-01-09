@@ -17,16 +17,14 @@ skills_title: Skills
 show_timeline_card: true
 timeline_title: Education & Experience 
 cv_download_link: 'https://bit.ly/3b4sbdq'
-show_projects_card: false
-show_projects: false
+show_projects_card: true
+show_projects: true
 projects_title: Projects
-show_os_projects: false
+show_os_projects: true
 os_projects_title: Open Source Projects
 show_contact_card: true
 contact_title: Get in touch ..
-contact_description: >-
-  Feel free to contact or follow me. If you have any Project or some Idea related to it, Then let's discuss ..
-repository: longpdo/neumorphism
+repository: priyansh19/great-spider
 projects:
   sort_by: pushed
   exclude:

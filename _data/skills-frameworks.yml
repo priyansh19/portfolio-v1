@@ -26,8 +26,5 @@
 - name: Spring
   weight: 1
 
-- name: Data Engineering
-  weight: 3
-
 - name: ETL
   weight: 5

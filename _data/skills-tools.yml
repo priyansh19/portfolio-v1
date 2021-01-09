@@ -8,7 +8,7 @@
 - name: Git
   weight: 5
 
-- name: Bash & ZSH
+- name: Bash
   weight: 3
 
 - name: Scrum
@@ -24,7 +24,7 @@
   weight: 1
 
 - name: Kubernetes
-  weight: 5
+  weight: 3
 
 - name: Hadoop HDFS
   weight: 3
@@ -43,3 +43,9 @@
 
 - name: Spark SQL
   weight: 4
+
+- name: Tableau
+  weight: 5
+
+- name: PowerBI
+  weight: 3
