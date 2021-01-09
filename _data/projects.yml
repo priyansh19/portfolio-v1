@@ -41,7 +41,7 @@
     - tag: Python
 
 - name: Whatsapp-play (OpenSource)
-  descr: "It is command line software through which you can play with your WhatsApp. It is having different options to play with your WhatsApp like message blast, online tracking, whatsapp chat.. This software aims to provide all facilities which we can do with WhatsApp. This CLI software does not require any API key for the execution."
+  descr: "It is command line software through which you can play with your whatsapp. It is having different options to play with your app like message blast, online tracking, whatsapp chat.. This software aims to provide all facilities which we can do with mobile app. This CLI software does not require any API key for the execution."
   demo: https://github.com/rpotter12/whatsapp-play
   tags: 
     - tag: Python
