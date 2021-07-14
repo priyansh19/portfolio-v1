@@ -1,6 +1,5 @@
-# Portfolio <!-- omit in toc -->
+# Portfolio v1 <!-- omit in toc -->
 
-[![License](https://badgen.net/github/license/longpdo/neumorphism)](LICENSE)
 <a href="https://jekyll-themes.com">
     <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
@@ -160,7 +159,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * Adapted [Damian Jankowski's](https://codepen.io/dolaron/pen/rNadmOE) color palette for the neumorphism design
 * Based Timeline on [Krishna Babu's](https://codepen.io/krishnab/pen/OPwqbW) version
 
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[product-screenshot]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/screenshot.gif
-[github-repo-info]: https://raw.githubusercontent.com/longpdo/neumorphism/master/docs/github-repo-info.png
